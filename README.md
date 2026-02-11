@@ -17,7 +17,7 @@ To verify yourself
 2. stop a running sabnzbd
 3. git clone this repo
 4. run `python3 create-super-ini.py` to create super.ini
-5. run `sabnzbdplus -f super.ini` and click the 100MB test download
+5. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu) and click the 100MB test download
 6. after a minute stop sabnzbd
 7. run `parse_sabnzbdlog.sh`
 
