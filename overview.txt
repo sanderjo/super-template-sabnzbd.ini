@@ -18,6 +18,7 @@ news6.usenetserver.com 2001:4de0:3:119::96
 reader6.newsxs.nl 2001:67c:174:101:0:65:ff02:122
 us6.astraweb.com 2a01:788:4:100::219
 us6.astraweb.com 2a01:788:4:100::254
+
 All failed:
 news6.astraweb.com
 news6.easynews.com
@@ -25,6 +26,7 @@ news6.eweka.nl
 news6.newshosting.com
 news6.tweaknews.eu
 news6.usenetserver.com
+
 FAILED ... with their ipv6 addresses:
 news6.astraweb.com 2001:4de0:1::201
 news6.astraweb.com 2001:4de0:1::203
