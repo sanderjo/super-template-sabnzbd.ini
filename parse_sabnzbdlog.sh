@@ -4,7 +4,7 @@ cat logs/sabnzbd.log | grep -i -e Fastest | awk '{ print $6 " " $11 }'  | sort -
 
 
 echo
-echo "All failed:"
+echo "All servers with one or more failed connections:"
 cat logs/sabnzbd.log | grep -i -e "no route to host" | awk -F'[@:]' '{print $(NF-1)}'  | sort -u | tee no-route.txt
 
 echo
