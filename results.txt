@@ -1,0 +1,40 @@
+All connections
+
+$ cat logs/sabnzbd.log | grep -i -e Fastest | awk '{ print $6 " " $11 }'  | sort -u | tee all.txt
+news-v6.frugalusenet.com 2607:bc40:0:119::2:2
+news6.astraweb.com 2001:4de0:1::203
+news6.easynews.com 2001:4de0:3:119::76
+news6.eweka.nl 2001:4de0:1::204
+news6.newshosting.com 2001:4de0:3:119::65
+news6.tweaknews.eu 2001:4de0:3:119::177
+news6.usenet.farm 2a00:1d38:fa:1001:119::1
+news6.usenetserver.com 2001:4de0:3:119::64
+reader6.newsxs.nl 2001:67c:174:101:0:65:ff02:122
+us6.astraweb.com 2a01:788:4:100::219
+
+
+Failed connections
+
+$ cat logs/sabnzbd.log | grep -i -e "no route to host" | awk -F'[@:]' '{print $(NF-1)}'  | sort -u | tee no-route.txt
+news6.astraweb.com
+news6.easynews.com
+news6.eweka.nl
+news6.newshosting.com
+news6.usenetserver.com
+
+$ cat no-route.txt | awk '{ print "grep " $1 " all.txt" }'  | sh
+news6.astraweb.com 2001:4de0:1::203
+news6.easynews.com 2001:4de0:3:119::76
+news6.eweka.nl 2001:4de0:1::204
+news6.newshosting.com 2001:4de0:3:119::65
+news6.usenetserver.com 2001:4de0:3:119::64
+
+$ cat all.txt | grep 2001:4de0
+news6.astraweb.com 2001:4de0:1::203
+news6.easynews.com 2001:4de0:3:119::76
+news6.eweka.nl 2001:4de0:1::204
+news6.newshosting.com 2001:4de0:3:119::65
+news6.tweaknews.eu 2001:4de0:3:119::177 ######## no errors?!
+news6.usenetserver.com 2001:4de0:3:119::64
+
+
