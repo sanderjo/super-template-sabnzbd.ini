@@ -1,3 +1,4 @@
+All lookups: newsservers with their ipv6:
 news-v6.frugalusenet.com 2607:bc40:0:119::2:1
 news-v6.frugalusenet.com 2607:bc40:0:119::2:2
 news-v6.frugalusenet.com 2607:bc40:0:119::2:4
@@ -17,3 +18,22 @@ news6.usenetserver.com 2001:4de0:3:119::96
 reader6.newsxs.nl 2001:67c:174:101:0:65:ff02:122
 us6.astraweb.com 2a01:788:4:100::219
 us6.astraweb.com 2a01:788:4:100::254
+All failed:
+news6.astraweb.com
+news6.easynews.com
+news6.eweka.nl
+news6.newshosting.com
+news6.tweaknews.eu
+news6.usenetserver.com
+FAILED ... with their ipv6 addresses:
+news6.astraweb.com 2001:4de0:1::201
+news6.astraweb.com 2001:4de0:1::203
+news6.easynews.com 2001:4de0:3:119::76
+news6.eweka.nl 2001:4de0:1::204
+news6.eweka.nl 2001:4de0:1::233
+news6.newshosting.com 2001:4de0:3:119::129
+news6.newshosting.com 2001:4de0:3:119::65
+news6.newshosting.com 2001:4de0:3:119::97
+news6.tweaknews.eu 2001:4de0:3:119::177
+news6.usenetserver.com 2001:4de0:3:119::64
+news6.usenetserver.com 2001:4de0:3:119::96
