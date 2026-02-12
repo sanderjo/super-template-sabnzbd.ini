@@ -1,3 +1,5 @@
+#!/bin/env python3
+
 import os
 supergoal = "super.ini"
 templatedir = "templates"
@@ -10,15 +12,21 @@ print(supergoal)
 
 newsservers = [
     "news6.eweka.nl",
-    "news6.newshosting.com",
-    "news-v6.frugalusenet.com",
-    "us6.astraweb.com",
-    "news6.easynews.com",
-    "news6.astraweb.com",
-    "news6.tweaknews.eu",
+    "news6.dwld.link",
+    "news6.xlned.com",
+    "eu6.astraweb.com",
     "news6.usenet.farm",
-    "news6.usenetserver.com",
     "reader6.newsxs.nl",
+    "news6.easynews.com",
+    "news6.tweaknews.eu",
+    "news6.tweaknews.nl",
+    "news6.pureusenet.nl",
+    "news6.newshosting.com",
+    "news6.sunnyusenet.com",
+    "news6.usenetserver.com",
+    "eunews-v6.blocknews.net",
+    "eunews-v6.usenetnow.net",
+    "news-v6.frugalusenet.com",
 ]
 
 
