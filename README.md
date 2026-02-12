@@ -1,7 +1,7 @@
 # The problem
 
 SABnzbd gives "Failed to connect: [Errno 113] No route to host" errors to ipv6 servers of eweka and newshosting. 
-And if you set 20 connections per server, most connections succeed, and few gives that error.
+If you set 20 connections per server, most connections succeed, and few gives that error.
 
 <img width="1281" height="250" alt="image" src="https://github.com/user-attachments/assets/a74bfc44-1bae-4ad9-99a1-0943fb6a98a0" />
 
@@ -13,13 +13,14 @@ So ... a problem on the side of eweka/newshosting?
 # Verify yourself
 
 To verify yourself
-1. you must working IPv6
-2. stop a running sabnzbd
-3. git clone this repo
-4. run `python3 create-super-ini.py` to create super.ini
-5. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu) and click the 100MB test download
-6. after a minute stop sabnzbd
-7. run `parse_sabnzbdlog.sh`
+1. you must working IPv6 within SABnzbd. Verify via Wrench: check that SABnzbd says it has an IPv6 address
+2. no need for accounts on the newsservers!
+3. stop a running sabnzbd
+4. git clone this repo
+5. run `python3 create-super-ini.py` to create super.ini
+6. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu) and click the 100MB test download
+7. after a minute stop sabnzbd
+8. run `parse_sabnzbdlog.sh`
 
 
 # example results
