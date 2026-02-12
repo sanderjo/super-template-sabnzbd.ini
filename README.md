@@ -8,7 +8,7 @@ If you set 20 connections per server, most connections succeed, and few gives th
 
 With testing a lot of different newsservers, the error occurs only on newsservers hosted by eweka/newshosting, not on newsservers hosted by other parties.
 
-So ... a problem on the side of eweka/newshosting?
+So ... a problem on the side of eweka/newshosting? Or Linux? Or ... ?
 
 # Verify yourself
 
@@ -54,6 +54,34 @@ news6.easynews.com: 2001:4de0:3:119::76 good: 35, bad: 5
 news6.newshosting.com: 2001:4de0:3:119::129 good: 32, bad: 8
 ```
 
+More beautiful
+
+```
+$ ./parse-results.py 
+Analysis of latest SABnzbd run, according to sabnzbdlog:
+
+The Good ... :
+news6.usenet.farm: 2a00:1d38:fa:1001:119::1 good: 40, bad: 0
+reader6.newsxs.nl: 2001:67c:174:101:0:65:ff02:122 good: 40, bad: 0
+news6.dwld.link: 2a13:d6c0:1:16::119 good: 40, bad: 0
+news6.newshosting.com: 2001:4de0:3:119::65 good: 40, bad: 0
+news6.usenetserver.com: 2001:4de0:3:119::96 good: 40, bad: 0
+eunews-v6.usenetnow.net: 2607:bc40:2:119::3:3 good: 40, bad: 0
+eunews-v6.blocknews.net: 2607:bc40:2:119::1:2 good: 40, bad: 0
+news-v6.frugalusenet.com: 2607:bc40:0:119::2:4 good: 40, bad: 0
+news6.sunnyusenet.com: 2001:4de0:3:119::173 good: 40, bad: 0
+
+The bad:
+news6.eweka.nl: 2001:4de0:1::204 good: 39, bad: 1
+news6.pureusenet.nl: 2001:4de0:3:119::174 good: 38, bad: 2
+news6.tweaknews.nl: 2001:4de0:3:119::176 good: 39, bad: 1
+news6.xlned.com: 2001:4de0:3:119::162 good: 39, bad: 1
+news6.tweaknews.eu: 2001:4de0:3:119::177 good: 37, bad: 3
+news6.easynews.com: 2001:4de0:3:119::76 good: 37, bad: 3
+eu6.astraweb.com: 2001:4de0:1::203 good: 39, bad: 1
+
+```
+
 So:
 * all non-eweka/newshosting servers (not starting with 2001:4de0:): all connections good
 * all eweka/newshosting servers (starting with 2001:4de0:): at least 1 bad IPv6 connection
@@ -78,4 +106,8 @@ SYN-SENT (The Client): Your computer sends a packet with the SYN (Synchronize) f
 
 ... so the client / SABnzbd is trying a connection, and waiting for but not getting a SYN-RECEIVED response from the server
 
+# and other downloader?
+
+I can't reproduce with NZBget with 40 connections to news6.newshosting.com
+I can't reproduce with a plain python3 script.
 
