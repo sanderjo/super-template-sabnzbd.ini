@@ -1,0 +1,109 @@
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:60204                    [2001:4de0:3:119::172]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38304                    [2001:4de0:3:119::163]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:36142                     [2001:4de0:3:119::76]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58578                        [2001:4de0:1::205]:563                                           
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:57986                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=41)) 
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58010                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=596))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58016                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=597))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58042                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=599))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58048                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=600))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58050                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=601))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58060                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=602))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58062                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=603))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58070                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=604))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58078                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=605))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58084                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=606))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58094                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=607))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58104                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=608))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58116                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=609))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58120                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=610))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58126                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=611))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58140                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=612))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58144                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=613))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58150                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=614))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58170                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=616))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58182                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=617))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58196                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=618))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58198                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=619))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58214                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=620))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58230                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=621))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58232                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=622))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58240                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=623))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58246                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=624))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58256                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=625))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58260                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=626))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58274                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=627))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58290                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=628))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58292                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=629))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58296                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=630))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58298                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=631))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58306                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=632))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58320                    [2001:4de0:3:119::162]:563   users:(("sabnzbdplus",pid=43941,fd=633))
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38868                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38878                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38888                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38892                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38896                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38904                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38908                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38910                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38926                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38948                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38954                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38964                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:38984                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:39000                     [2a13:d6c0:1:16::119]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:39010                     [2a13:d6c0:1:16::119]:563                                           
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34848          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=634))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34854          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=635))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34860          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=637))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34862          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=639))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34876          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=641))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34888          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=642))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34894          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=640))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34898          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=643))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34910          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=644))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34924          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=645))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34930          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=646))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34938          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=647))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34944          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=648))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34952          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=649))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34958          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=650))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34964          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=651))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34980          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=652))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:34994          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=653))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35000          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=654))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35008          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=655))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35020          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=656))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35022          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=657))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35034          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=658))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35050          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=659))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35060          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=660))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35068          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=661))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35084          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=662))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35100          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=663))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35108          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=664))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35118          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=665))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35124          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=666))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35126          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=667))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35136          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=668))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35148          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=669))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35156          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=670))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35158          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=671))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35170          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=672))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35184          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=673))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35200          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=674))
+CLOSE-WAIT 1      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:35206          [2001:67c:174:101:0:65:ff02:122]:563   users:(("sabnzbdplus",pid=43941,fd=675))
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:52410                    [2001:4de0:3:119::173]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:47042                        [2001:4de0:1::201]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:46112                    [2001:4de0:3:119::164]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:36298                     [2001:4de0:3:119::64]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:37156                     [2001:4de0:3:119::97]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:48068                     [2001:4de0:3:119::96]:563                                           
+ESTAB      0      28     [2001:X:Y:Z:9612:5faa:847d:42c1]:48342                     [2001:4de0:3:119::96]:563   users:(("sabnzbdplus",pid=43941,fd=305))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:48360                     [2001:4de0:3:119::96]:563   users:(("sabnzbdplus",pid=43941,fd=310))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:48386                     [2001:4de0:3:119::96]:563   users:(("sabnzbdplus",pid=43941,fd=311))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:48392                     [2001:4de0:3:119::96]:563   users:(("sabnzbdplus",pid=43941,fd=312))
+ESTAB      0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:48408                     [2001:4de0:3:119::96]:563   users:(("sabnzbdplus",pid=43941,fd=306))
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:54776                    [2001:4de0:3:119::129]:563                                           
+TIME-WAIT  0      0      [2001:X:Y:Z:9612:5faa:847d:42c1]:58982                        [2001:4de0:1::203]:563                                           

@@ -82,9 +82,21 @@ for line in result.splitlines():
 
 # print results
 #print("\nResults:")
+bad = ""
+
+print("Analysis of latest SABnzbd run, according to sabnzbdlog:")
+print("\nThe Good ... :")
 for server, ipv6 in ipv6found.items():
     # find server in good_connections and bad_connections, and print counts
     good_count = good_connections.get(server, 0)
     bad_count = bad_connections.get(server, 0)  
-    print(f"{server}: {ipv6} good: {good_count}, bad: {bad_count}")
-
+    #print(f"{server}: {ipv6} good: {good_count}, bad: {bad_count}")
+    output = f"{server}: {ipv6} good: {good_count}, bad: {bad_count}"
+    if bad_count == 0:
+        # all good, print now
+        print(output)
+    else:
+        # some bad, print later
+        bad = bad + output + "\n"
+print("\nThe bad:")
+print(bad)
