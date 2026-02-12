@@ -22,6 +22,14 @@ To verify yourself
 7. after a minute stop sabnzbd
 8. run `parse_sabnzbdlog.sh`
 
+In short:
+```
+./create-super-ini.py 
+sabnzbdplus -f super.ini 
+history 
+./parse-results.py  | rev | sort -k1,1n | rev
+```
+
 
 # example results
 
