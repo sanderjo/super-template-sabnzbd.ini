@@ -60,3 +60,22 @@ So:
 
 
 Conincidence? I think not.
+
+# SYN-SENT
+
+With `ss -antp | grep :563` you can see NNTPS connections. So let that run while SABnzbd is trying:
+
+```while true; do ss -antp | grep :563 > ss-output-$(date +%Y-%m-%d--%H%M%S).txt ; sleep 5; done```
+
+Interesting seems to be "SYN-SENT". And that only happes with ... eweka/newhosting hosted newsservers:
+
+<img width="1606" height="705" alt="image" src="https://github.com/user-attachments/assets/950b7699-40b8-44fd-86a5-b5e842a48bea" />
+
+
+Quote:
+"In the world of networking, SYN-SENT is a temporary state in the Transmission Control Protocol (TCP) connection process. Think of it as the "waiting for a reply" phase when your computer tries to talk to a server. 
+SYN-SENT (The Client): Your computer sends a packet with the SYN (Synchronize) flag set. It then enters the SYN-SENT state. It’s essentially saying, "Hey, I'd like to talk. Here is my starting sequence number."
+
+... so the client / SABnzbd is trying a connection, and waiting for but not getting a SYN-RECEIVED response from the server
+
+
