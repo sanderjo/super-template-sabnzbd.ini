@@ -18,32 +18,64 @@ To verify yourself
 3. stop a running sabnzbd
 4. git clone this repo
 5. run `python3 create-super-ini.py` to create super.ini
-6. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu) and click the 100MB test download
-7. after a minute stop sabnzbd
-8. run `parse_sabnzbdlog.sh`
+6. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu)
+7. In the SABnzbd GUI: click the 100MB test download
+8. after a minute stop sabnzbd. Note: no logins for those servers, so no download (and loging errors).
+9. run `python3 parse-results.py` to see the results
+
+In short:
+```
+./create-super-ini.py # creates super.ini
+sabnzbdplus -f super.ini # in the SAB GUI: let it try to download the 100MB test file, and stop SABnzbd after a minute
+./parse-results.py  | rev | sort -k1,1n | rev
+```
 
 
 # example results
 
 ```
-All servers with one or more failed connections:
-news6.astraweb.com
-news6.easynews.com
-news6.eweka.nl
-news6.newshosting.com
-news6.tweaknews.eu
-news6.usenetserver.com
+sander@x360:~/git/ipv6-tests-newshosting-eweka$ ./parse-results.py  | rev | sort -k1,1n | rev
+reader6.newsxs.nl: 2001:67c:174:101:0:65:ff02:122 good: 0, bad: 0
+eunews-v6.blocknews.net: 2607:bc40:2:119::1:1 good: 40, bad: 0
+news-v6.frugalusenet.com: 2607:bc40:0:119::2:3 good: 40, bad: 0
+eunews-v6.usenetnow.net: 2607:bc40:2:119::3:4 good: 40, bad: 0
+news6.usenet.farm: 2a00:1d38:fa:1001:119::4 good: 40, bad: 0
+news6.tweaknews.nl: 2001:4de0:3:119::176 good: 40, bad: 0
+news6.tweaknews.eu: 2001:4de0:3:119::177 good: 40, bad: 0
+news6.dwld.link: 2a13:d6c0:1:16::119 good: 40, bad: 0
 
-FAILED ... with their ipv6 addresses:
-news6.astraweb.com 2001:4de0:1::201
-news6.astraweb.com 2001:4de0:1::203
-news6.easynews.com 2001:4de0:3:119::76
-news6.eweka.nl 2001:4de0:1::204
-news6.eweka.nl 2001:4de0:1::233
-news6.newshosting.com 2001:4de0:3:119::129
-news6.newshosting.com 2001:4de0:3:119::65
-news6.newshosting.com 2001:4de0:3:119::97
-news6.tweaknews.eu 2001:4de0:3:119::177
-news6.usenetserver.com 2001:4de0:3:119::64
-news6.usenetserver.com 2001:4de0:3:119::96
+eu6.astraweb.com: 2001:4de0:1::203 good: 39, bad: 1
+news6.pureusenet.nl: 2001:4de0:3:119::164 good: 39, bad: 1
+news6.usenetserver.com: 2001:4de0:3:119::64 good: 39, bad: 1
+news6.xlned.com: 2001:4de0:3:119::172 good: 38, bad: 2
+news6.sunnyusenet.com: 2001:4de0:3:119::173 good: 38, bad: 2
+news6.eweka.nl: 2001:4de0:1::204 good: 37, bad: 3
+news6.easynews.com: 2001:4de0:3:119::76 good: 35, bad: 5
+news6.newshosting.com: 2001:4de0:3:119::129 good: 32, bad: 8
 ```
+
+So:
+* all non-eweka/newshosting servers (not starting with 2001:4de0:): all connections good
+* all eweka/newshosting servers (starting with 2001:4de0:): at least 1 bad IPv6 connection
+
+
+Conincidence? I think not.
+
+# SYN-SENT
+
+With `ss -antp | grep :563` you can see NNTPS connections. So let that run while SABnzbd is trying:
+
+```while true; do ss -antp | grep :563 > ss-output-$(date +%Y-%m-%d--%H%M%S).txt ; sleep 5; done```
+
+Interesting seems to be "SYN-SENT". And that only happes with ... eweka/newhosting hosted newsservers:
+
+<img width="1606" height="705" alt="image" src="https://github.com/user-attachments/assets/950b7699-40b8-44fd-86a5-b5e842a48bea" />
+
+
+Quote:
+"In the world of networking, SYN-SENT is a temporary state in the Transmission Control Protocol (TCP) connection process. Think of it as the "waiting for a reply" phase when your computer tries to talk to a server. 
+SYN-SENT (The Client): Your computer sends a packet with the SYN (Synchronize) flag set. It then enters the SYN-SENT state. It’s essentially saying, "Hey, I'd like to talk. Here is my starting sequence number."
+
+... so the client / SABnzbd is trying a connection, and waiting for but not getting a SYN-RECEIVED response from the server
+
+
