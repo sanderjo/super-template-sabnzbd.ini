@@ -55,7 +55,7 @@ news6.newshosting.com: 2001:4de0:3:119::129 good: 32, bad: 8
 ```
 
 So:
-* all non-eweka/newshosting servers: good
-* all eweka/newshosting server: at least 1 bad IPv6 connection
+* all eweka/newshosting servers (starting with 2001:4de0:): at least 1 bad IPv6 connection
+* all non-eweka/newshosting servers: all connections good
 
 Conincidence? I think not.
