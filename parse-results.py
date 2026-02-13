@@ -31,12 +31,20 @@ We need to find lines that look like this:
 results = {}
 # fill out the hashmap by parsing the log file.
 
+datetime = None
+
 ipv6found = {}
 good_connections = {}
 bad_connections = {}
 
+print("Analysis of latest SABnzbd run, according to sabnzbd.log:\n")
 
 for line in result.splitlines():
+    if not datetime and "INFO" in line:
+        # 2026-02-12 20:40:31,243::INFO::[sabnzbdpl...
+        datetime = line.split(",")[0]
+        print(f"Logging starting at: {datetime}\n")
+        # get datetime from line, which is the first 19 characters. datetime = line[:19] print(f"Datetime of latest run: {datetime}")   
     if "Fastest connection to" in line:
         # 2026-02-12 07:34:08,461::INFO::[get_addrinfo:198] Fastest connection to news6.eweka.nl (port=563, IPv4 or IPv6): 2001:4de0:1::205 (news6.eweka.nl) in 11ms (out of 3 results)
 
@@ -84,7 +92,7 @@ for line in result.splitlines():
 #print("\nResults:")
 bad = ""
 
-print("Analysis of latest SABnzbd run, according to sabnzbdlog:")
+
 print("\nThe Good ... :")
 for server, ipv6 in ipv6found.items():
     # find server in good_connections and bad_connections, and print counts
