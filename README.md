@@ -17,16 +17,16 @@ To verify yourself
 2. no need for accounts on the newsservers!
 3. stop a running sabnzbd
 4. git clone this repo
-5. run `python3 create-super-ini.py` to create super.ini
-6. run `python3 SABnzbd.py -f super.ini` (plain) or `sabnzbdplus -f super.ini` (Ubuntu)
+5. run `python3 create-multiipv6onlysab-ini.py` to create multiipv6onlysab.ini
+6. run `python3 SABnzbd.py -f multiipv6onlysab.ini` (plain) or `sabnzbdplus -f multiipv6onlysab.ini` (Ubuntu)
 7. In the SABnzbd GUI: click the 100MB test download
 8. after a minute stop sabnzbd. Note: no logins for those servers, so no download (and loging errors).
 9. run `python3 parse-results.py` to see the results
 
 In short:
 ```
-./create-super-ini.py # creates super.ini
-sabnzbdplus -f super.ini # in the SAB GUI: let it try to download the 100MB test file, and stop SABnzbd after a minute
+./create-multiipv6onlysab-ini.py # creates multiipv6onlysab.ini
+sabnzbdplus -f multiipv6onlysab.ini # in the SAB GUI: let it try to download the 100MB test file, and stop SABnzbd after a minute
 ./parse-results.py
 ```
 

@@ -1,14 +1,14 @@
 #!/bin/env python3
 
 import os
-supergoal = "super.ini"
+multiipv6onlysabgoal = "multiipv6onlysab.ini"
 templatedir = "templates"
 
 
 
 # read in "pre.template"
 
-print(supergoal)
+print(multiipv6onlysabgoal)
 
 newsservers = [
     "news6.eweka.nl",
@@ -46,7 +46,7 @@ with open(os.path.join(templatedir, "newsservers.template"), 'r') as file:
 
 fulloutput = pre + all_servers + post
 
-with open(supergoal, 'w') as file:
+with open(multiipv6onlysabgoal, 'w') as file:
     file.write(fulloutput)
     
-print(f"Successfully created {supergoal}")
+print(f"Successfully created {multiipv6onlysabgoal}")
